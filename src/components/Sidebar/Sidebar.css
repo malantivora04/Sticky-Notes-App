@@ -1,0 +1,26 @@
+
+.sidebar{
+    margin-top: 2.5vh;
+    width: 8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;  
+}
+
+.sidebar_list{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: 0;
+    transition: 800ms;
+}
+.sidebar_list_active{
+    height: 30vh;
+}
+
+.sidebar_list_item{
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
+    list-style: none;
+}

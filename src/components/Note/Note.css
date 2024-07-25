@@ -1,0 +1,44 @@
+.note{
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    border-radius: 30px;
+}
+h4{
+    overflow-x: hidden;
+}
+.note_text{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: small;
+    line-height: 1.575rem;
+    outline: none;
+    border: none;  
+}
+.note-head{
+    margin-bottom: 1vh;
+    font-size:medium;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.note-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.note-footer i{
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.note:hover .note-footer i {
+    opacity: 1;
+}
